@@ -13,6 +13,9 @@ public class BstApp {
 
 		System.out.println(bst.findMin().key);
 		System.out.println(bst.findMax().key);
+		System.out.println(bst.removeNode(1));
+		System.out.println(bst.findMin().key);
+
 	}
 
 }
